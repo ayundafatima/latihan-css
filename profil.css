@@ -1,0 +1,68 @@
+/* Selector tag */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    margin: 0;
+    padding: 40px;
+}
+
+/* Selector class */
+.kartu {
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+
+    background-color: white;
+
+    /* Border */
+    border: 2px solid #4a90e2;
+    border-radius: 15px;
+
+    /* Box model */
+    box-sizing: border-box;
+
+    text-align: center;
+
+    /* Bayangan */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Foto */
+.foto {
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 50%;
+    border: 4px solid #4a90e2;
+
+    margin-bottom: 15px;
+}
+
+/* Selector ID */
+#nama {
+    font-family: Georgia, serif;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Informasi profil */
+.info {
+    font-family: Arial, sans-serif;
+    color: #444;
+    margin: 8px 0;
+}
+
+/* Deskripsi */
+#deskripsi {
+    font-family: "Trebuchet MS", sans-serif;
+    color: #555;
+    line-height: 1.6;
+
+    margin-top: 20px;
+    padding: 15px;
+
+    background-color: #f5f9ff;
+    border-radius: 10px;
+}
